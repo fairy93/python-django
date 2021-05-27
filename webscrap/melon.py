@@ -27,6 +27,3 @@ class Melon(object):
         m.titles = soup.select('div.rank01')
         m.artists = soup.select('div.rank02>span')
         m.get_chart_all()
-
-
-Melon.main()

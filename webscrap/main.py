@@ -3,11 +3,11 @@ from melon import Melon
 
 
 def main():
+    print('---------------벅스뮤직차트-----------')
     b = BugsMusic()
-    m = Melon()
-    print('벅스뮤직 차트')
     b.main()
-    print('멜론 차트')
+    print('---------------멜론차트------------')
+    m = Melon()
     m.main()
 
 
